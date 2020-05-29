@@ -8,6 +8,7 @@ sh run.sh
 
 ## Data conversion script
 * To GCN models
+
 insert into the source code
 ```python
 from convert_to_gcn import load_tree_sr, mask_data, accuracy_score
@@ -20,6 +21,7 @@ test_data = test_data.long()
 ```
 
 * To GrapgSAGE
+
 insert into the source code
 ```python
 from convert_to_graphsage import load_tree_sr
@@ -32,6 +34,7 @@ features.weight = nn.Parameter(torch.FloatTensor(feat_data), requires_grad=False
 ```
 
 * To Poincare Embeddings
+
 insert into the source code
 ```shell
 python convert_to_pe.py
@@ -39,12 +42,14 @@ python convert_to_pe.py
 
 ## Raw data parser
 * For Facebook-100 dataset
+
 run in shell
 ```shell
 python data/parse_facebook100.py
 ```
 
-*For wordnet dataset
+* For wordnet dataset
+
 run in shell
 ```shell
 python transitive_closure_tree.py
