@@ -1,6 +1,14 @@
 # Code for HCNE
 
+## requirements
+
+* Pytorch
+* NLTK
+* sklearn
+
 ## Demo
+
+* run in shell
 
 ```shell
 sh run.sh
