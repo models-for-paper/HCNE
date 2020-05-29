@@ -1,12 +1,12 @@
 # Code for HCNE
 
-## requirements
+## Requirements
 
 * Pytorch
 * NLTK
 * sklearn
 
-## Demo
+## HCNE demo
 
 * run in shell
 
@@ -14,7 +14,7 @@
 sh run.sh
 ```
 
-## Data conversion script
+## Data conversion scripts
 * To GCN models
 
 insert into the source code
